@@ -164,8 +164,8 @@ const weatherData = ref<weatherAttributes>({
     icon: ""
 });
 
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-let today: any = new Date();
+const options: any = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+let today: string | Date = new Date();
 today = today.toLocaleDateString("en-US", options);
 
 
