@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  width: 70%;
+  float: left;
+  padding: 4% 5%;
+  margin: 5% 10%;
+  background-color: blue;
+}
+.child-container {
+  width: 100%;
+  float: left;
+}
+.date {
+  margin-bottom: 50px;
+}
+.search-text {
+  width: 100%;
+  /* margin-left: 15%; */
+}
+.input-field-stylings {
+  width: 100%;
+  padding: 7px 8px;
+  display: inline;
+}
+.search-btn-stylings {
+  padding: 10px 8px;
+  background-color: brown;
+  border: none;
+
+  cursor: pointer;
+  width: 100%;
+}
+.search-btn {
+  width: 100%;
+  margin-top: 20px;
+  /* margin-left: 12%; */
+}
+.location {
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.weather-details {
+  width: 100%;
+  float: left;
+}
+.weather-child {
+  width: 22%;
+  float: left;
+}
+.degree {
+  font-size: 65px;
+}
+.right-border {
+  border-right: 1px solid white;
+  height: 130px;
+  position: relative;
+  right: 220px;
+}
+.weather-others {
+  width: 70%;
+  float: left;
+  position: relative;
+  left: 250px;
+  bottom: 125px;
+}
+.margin-spacing {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.font-size-increase {
+  font-size: 23px;
+}
+input {
+  color: black;
+}
+.img-style {
+  width: 120px;
+  height: 156px;
+  margin-top: -27px;
+}
